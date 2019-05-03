@@ -1,0 +1,257 @@
+[
+	{
+		"project":
+		{
+			"noc":
+			{
+				"x": "3",
+				"y": "3",
+				"topology": "MESH 2D",
+				"routers": 
+				{
+					"pe":
+					{
+						"id": "0",
+						"top": "20",
+						"left": "12",
+						"local": "proc0"
+					},
+					"pe":
+					{
+						"id": "22",
+						"top": "01",
+						"right": "10",
+						"local": "proc1"
+					},
+					"pe":
+					{
+						"id": "2",
+						"top": "21",
+						"left": "12",
+						"local": "proc2"
+					},
+					"pe":
+					{
+						"id": "20",
+						"top": "00",
+						"right": "10",
+						"local": "proc3"
+					},
+					"pe":
+					{
+						"id": "21",
+						"top": "22",
+						"left": "12",
+						"local": "proc4"
+					},
+					"pe":
+					{
+						"id": "0",
+						"top": "12",
+						"right": "21",
+						"local": "proc5"
+					},
+					"pe":
+					{
+						"id": "11",
+						"top": "22",
+						"left": "12",
+						"local": "proc6"
+					},
+					"pe":
+					{
+						"id": "21",
+						"top": "22",
+						"left": "12",
+						"local": "proc7"
+					},
+					"pe":
+					{
+						"id": "0",
+						"top": "01",
+						"right": "10",
+						"local": "proc8"
+					},
+					"pe":
+					{
+						"id": "0",
+						"top": "01",
+						"right": "10",
+						"local": "proc9"
+					}
+				}
+			},
+			"communication":
+			{
+				"volume":
+				{
+					"router":
+					{
+						"id": "22",
+						"message_count": "0",
+						"ports":
+						{
+							"top": "-nan%",
+							"bottom": "-nan%",
+							"left": "-nan%",
+							"right": "-nan%",
+							"local": "-nan%"
+						}
+					},
+					"router":
+					{
+						"id": "00",
+						"message_count": "0",
+						"ports":
+						{
+							"top": "-nan%",
+							"bottom": "-nan%",
+							"left": "-nan%",
+							"right": "-nan%",
+							"local": "-nan%"
+						}
+					},
+					"router":
+					{
+						"id": "20",
+						"message_count": "1",
+						"ports":
+						{
+							"top": "50.000000%",
+							"bottom": "0.000000%",
+							"left": "50.000000%",
+							"right": "0.000000%",
+							"local": "0.000000%"
+						}
+					},
+					"router":
+					{
+						"id": "02",
+						"message_count": "0",
+						"ports":
+						{
+							"top": "-nan%",
+							"bottom": "-nan%",
+							"left": "-nan%",
+							"right": "-nan%",
+							"local": "-nan%"
+						}
+					},
+					"router":
+					{
+						"id": "21",
+						"message_count": "1",
+						"ports":
+						{
+							"top": "0.000000%",
+							"bottom": "0.000000%",
+							"left": "0.000000%",
+							"right": "100.000000%",
+							"local": "0.000000%"
+						}
+					},
+					"router":
+					{
+						"id": "11",
+						"message_count": "0",
+						"ports":
+						{
+							"top": "-nan%",
+							"bottom": "-nan%",
+							"left": "-nan%",
+							"right": "-nan%",
+							"local": "-nan%"
+						}
+					},
+					"router":
+					{
+						"id": "21",
+						"message_count": "2",
+						"ports":
+						{
+							"top": "0.000000%",
+							"bottom": "50.000000%",
+							"left": "0.000000%",
+							"right": "50.000000%",
+							"local": "0.000000%"
+						}
+					},
+					"router":
+					{
+						"id": "21",
+						"message_count": "0",
+						"ports":
+						{
+							"top": "-nan%",
+							"bottom": "-nan%",
+							"left": "-nan%",
+							"right": "-nan%",
+							"local": "-nan%"
+						}
+					},
+					"router":
+					{
+						"id": "00",
+						"message_count": "1",
+						"ports":
+						{
+							"top": "0.000000%",
+							"bottom": "50.000000%",
+							"left": "50.000000%",
+							"right": "0.000000%",
+							"local": "0.000000%"
+						}
+					}
+				}
+			},
+			"execution":
+			{
+				"proc":
+				{
+					"id": "proc0",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc1",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc2",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc3",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc4",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc5",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc6",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc7",
+					"requests": "0"
+				},
+				"proc":
+				{
+					"id": "proc8",
+					"requests": "0"
+				}
+			}
+		}
+	}
+]
